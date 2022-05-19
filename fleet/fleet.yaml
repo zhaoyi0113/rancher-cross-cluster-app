@@ -2,4 +2,4 @@
 namespace: default
 
 helm:
-  chart: ./cqrs
+  chart: https://zhaoyi0113.github.io/rancher-cross-cluster-app/cqrs/cqrs-0.1.0.tgz

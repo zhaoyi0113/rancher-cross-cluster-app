@@ -8,4 +8,4 @@ spec:
   # Everything from this repo will be ran in this cluster. You trust me right?
   repo: "https://github.com/zhaoyi0113/rancher-cross-cluster-app.git"
   paths:
-  - simple
+  - cqrs

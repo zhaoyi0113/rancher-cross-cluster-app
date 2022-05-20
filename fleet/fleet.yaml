@@ -1,5 +1,6 @@
 
 namespace: default
+defaultNamespace: default
 
 helm:
   branch: main

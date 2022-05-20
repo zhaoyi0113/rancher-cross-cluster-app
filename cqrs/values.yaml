@@ -38,8 +38,8 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: NodePort
-  port: 81
+  type: ClusterIP
+  port: 80
 
 ingress:
   enabled: false

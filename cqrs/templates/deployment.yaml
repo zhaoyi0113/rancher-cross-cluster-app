@@ -19,4 +19,4 @@ spec:
         - name: api
           image: zhaoyi0113/rancher-go-api
           ports:
-            - containerPort: 80
+            - containerPort: 8080

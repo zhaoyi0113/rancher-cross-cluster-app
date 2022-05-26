@@ -18,5 +18,16 @@ spec:
       containers:
         - name: api
           image: zhaoyi0113/rancher-go-api
+          env:
+            - name: AWS_ACCESS_KEY_ID
+              valueFrom:
+                secretKeyRef:
+                  name: awssecret
+                  key: AWS_ACCESS_KEY_ID
+            - name: AWS_SECRET_ACCESS_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: awssecret
+                  key: AWS_SECRET_ACCESS_KEY
           ports:
             - containerPort: 8080

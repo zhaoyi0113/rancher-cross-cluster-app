@@ -3,12 +3,12 @@ entries:
   cqrs:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-26T10:43:49.993912+10:00"
+    created: "2022-05-26T10:50:01.846077+10:00"
     description: A Helm chart for Kubernetes
-    digest: c9f61185041a188b7f8a51f1c1785fc415875817309b95f8f197c5317aef780d
+    digest: 6d8f52c7be4eb215a34363e1e69b94c2c938207f7c7d1bf7ac28c75302e200b4
     name: cqrs
     type: application
     urls:
     - https://zhaoyi0113.github.io/rancher-cross-cluster-app/cqrs/cqrs-0.1.0.tgz/cqrs-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-26T10:43:49.989917+10:00"
+generated: "2022-05-26T10:50:01.840454+10:00"

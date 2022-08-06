@@ -785,7 +785,7 @@ spec:
     spec:
       containers:
       - args:
-        - --cluster-name=aws-cqrs
+        - --cluster-name=dev-cqrs
         - --ingress-class=alb
         image: amazon/aws-alb-ingress-controller:v2.2.0
         livenessProbe:

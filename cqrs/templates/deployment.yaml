@@ -29,7 +29,5 @@ spec:
                 secretKeyRef:
                   name: awssecret
                   key: AWS_SECRET_ACCESS_KEY
-            - name: TEST
-              value: "test test"
           ports:
             - containerPort: 8080

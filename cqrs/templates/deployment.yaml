@@ -29,5 +29,10 @@ spec:
                 secretKeyRef:
                   name: awssecret
                   key: AWS_SECRET_ACCESS_KEY
+            - name: CLOUD_PROVIDER
+              valueFrom:
+                secretKeyRef:
+                  name: cloudProvider
+                  key: name
           ports:
             - containerPort: 8080

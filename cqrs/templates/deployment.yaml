@@ -32,7 +32,7 @@ spec:
             - name: CLOUD_PROVIDER
               valueFrom:
                 secretKeyRef:
-                  name: cloudProvider
+                  name: cloudprovider
                   key: name
           ports:
             - containerPort: 8080

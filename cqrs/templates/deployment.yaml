@@ -17,7 +17,8 @@ spec:
       serviceAccountName: docker-sa
       containers:
         - name: api
-          image: zhaoyi0113/rancher-go-api
+          image: gcr.io/google-samples/hello-app:1.0
+          # image: zhaoyi0113/rancher-go-api
           env:
             - name: AWS_ACCESS_KEY_ID
               valueFrom:

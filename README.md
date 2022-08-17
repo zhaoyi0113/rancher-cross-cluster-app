@@ -25,4 +25,6 @@ helm package .
 
 ```
 curl -XPOST k8s-sidecar-3eabe19e18-1188815636.ap-southeast-2.elb.amazonaws.com/transaction -d '{"amount": 1}'
+
+url -XPOST http://rancher.crms.myzeller.dev/transaction -d '{"amount": 1}'
 ```

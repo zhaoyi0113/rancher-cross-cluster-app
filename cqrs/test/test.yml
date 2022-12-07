@@ -29,7 +29,7 @@ metadata:
     cloud.google.com/neg: '{"ingress": true}'
 spec:
   selector:
-    name: test
+    name: api
   ports:
     - port: 80
       targetPort: 8080
